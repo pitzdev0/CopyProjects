@@ -1,0 +1,47 @@
+.video-container {
+	position: relative;
+	border-radius: 25px;
+	scroll-snap-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	aspect-ratio: 9/16;
+}
+
+.playerbtn {
+	position: absolute;
+	inset: 0;
+	margin: auto;
+	background-image: url('/assets/playbtn.png');
+	background-position: center center;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 70px;
+	height: 70px;
+	border: none;
+	cursor: pointer;
+}
+
+.playerbtn.hide {
+	opacity: 0;
+}
+
+/*  SIDEBAR  */
+.video-actions {
+	position: absolute;
+	bottom: 80px;
+	right: 16px;
+}
+.video-action {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 25px;
+}
