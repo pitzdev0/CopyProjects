@@ -1,0 +1,7 @@
+# aca tiene que ir el nombre de las carpetas
+# luego, para ejecutar los comandos pnpm se llama
+#   al nombre del proyecto (pe. 'react-crud')
+
+packages:
+  - 'frontend'
+  - 'backend'

@@ -1,11 +1,11 @@
 # aca tiene que ir el nombre de las carpetas
 # luego, para ejecutar los comandos pnpm se llama al nombre del proyecto (pe. 'react-crud')
 
+packages:
+  - '01-cloneTK'
+  - '02-pruebatec'
 # para instalar dep. en proyectos específicos se usa -F [nombre-paquete]
 # ex: pnpm install -E antd -F clonetk
 
 # to run custom project:
 # ex: pnpm -F clonetk dev
-
-packages:
-  - '01-cloneTK'

@@ -1,0 +1,21 @@
+{
+	"name": "frontend",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --port=4000",
+		"build": "tsc -b && vite build",
+		"lint": "eslint .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"sonner": "^1.7.0"
+	},
+	"devDependencies": {
+		"@uidotdev/usehooks": "2.4.1",
+		"@vitejs/plugin-react": "4.3.4",
+		"typescript": "5.6.2",
+		"typescript-eslint": "^8.15.0"
+	}
+}
