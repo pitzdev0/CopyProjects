@@ -4,8 +4,9 @@
 packages:
   - '01-cloneTK'
   - '02-pruebatec'
+  - '03-AppTS'
 # para instalar dep. en proyectos específicos se usa -F [nombre-paquete]
 # ex: pnpm install -E antd -F clonetk
-
+# ----------------------------------------
 # to run custom project:
 # ex: pnpm -F clonetk dev
